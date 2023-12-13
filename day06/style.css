@@ -1,0 +1,76 @@
+div {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#wrap {
+    background-color: steelblue;
+    width: 550px;
+    height: 640px;
+}
+
+#result {
+    height: 100px;
+    line-height: 100px;
+    font-size: 30px;
+    background-color: salmon;
+}
+
+#btn {
+    background-color: white;
+    overflow: hidden;
+}
+
+#ac, #enter {
+    background-color: salmon; 
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.num {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background-color: lightgrey;
+}
+
+.oper {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+.num0 { 
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background-color: lightgrey;
+}
+
+.num:active, .num0:active {
+    background-color: black;
+    color : white;
+}
+
+.oper:active {
+    background-color: lightgrey;
+    color: black;
+}
+
+#ac:active, #enter:active {
+    background-color: hotpink;
+}
+
+.group {
+    margin: 0 auto;
+}
